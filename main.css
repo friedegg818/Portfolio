@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+* {
+	margin: 0; padding: 0;
+	font-family: NanumSquareRound;
+}
+
+body {
+	font-family: NanumSquareRound, "Malgun Gothic", "맑은 고딕", NanumGothic, 나눔고딕, 돋움, sans-serif;
+	font-size: 14px;
+	width: 1903px;
+}
+
+a {
+	cursor: pointer;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* 상단 타이틀 바 */
+
+.header {
+	width: 100%;	
+	margin: 0 auto;
+}
+
+.header-top {
+	margin: 0px auto;
+	width: 100%;
+	height: 90px;
+	clear: both;
+	background: #7986CB;
+	line-height: 90px;
+}
+
+.header-top p a {
+	color: #fbd14b;
+	font-size: 45px;
+	font-weight: 900;
+	margin-left: 200px;	
+}
+
+
+/* 본문 */
+
+
+/* 메뉴 타이틀 */
+.menu {
+    margin:0px auto;
+    width: 100%;
+    clear: both;  
+    height: 80px;
+    line-height: 80px;
+}
+
+.menu p {
+	font-size: 33px;
+	font-weight: 900;
+	color: #7986CB;
+	margin-left: 200px;	
+}
+
+/* 각각 본문 박스  */
+.Details {
+	width: 70%;
+	background: #E8EAF6;
+	height: 330px;
+	margin: 0px auto;
+}
+
+/* 중간 구분선 */
+.board-middle {
+	margin-top: 40px; 
+	height: 1.5px;
+	background: #dedcee;
+	width: 100%;
+}
+
+/* About me 사진 - 자기소개 */ 
+.profile {
+	width: 67%;
+	float: left;
+	height: 100%;
+}
+
+.photo {
+	width: 200px;
+	height: 250px;
+	margin-left: 35px;
+	margin-top: 35px;
+	float: left;
+}
+
+.intro {
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.intro p {
+	font-size: 23px;
+	font-family: NanumSquareRound;
+}
+
+.intro-box {
+	margin-top: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 7px;
+}
+
+.intro-box p {
+	font-weight: 540;
+	font-size: 16px;
+	margin-bottom: 2.5px;
+}
+
+/* About me - 연락처  */
+.contact {
+	width: 32.5%;
+	float: left;
+	height: 100%;
+	border-left: 2px solid white;
+}
+
+.c-title {
+	margin-top: 23px;
+	margin-left: 50px;
+	font-size: 27px;
+	text-align: left;
+	font-weight: 800;
+	color: #7986CB;
+}
+
+.c-box {
+	margin: 0px auto;
+	margin-top: 10px;
+	background: #7986CB;
+	height: 72px;
+	width: 320px;
+	border-radius: 10px;
+}
+
+.icon {
+	font-size: 27px;
+	line-height: 72px;
+	color: white;
+	padding-left: 21px;
+	float: left;
+}
+
+.cb-title {
+	font-size: 16px;
+	font-weight: 800;
+	color: white;
+	margin-left: 66px;
+	padding-top: 15px;
+}
+
+.cb-detail {
+	color: white;
+	margin-left: 66px;
+	padding-top: 4px;
+	font-size: 14.5px;
+}
+
+.cb-detail a {
+	color: white;
+	text-decoration: none;
+}
+
+.cb-detail a:hover {
+	color: #FFCC80;
+	font-weight: bold;
+}
+
+
+/* SKIIL */
+
+.divide {
+	height: 100%;
+	width: 33.2%;
+	border-right: 1px solid white;
+	float: left;
+}
+
+.s-title {
+	font-size: 23px;
+	font-weight: 800;
+	margin-left: 15px;
+	padding-top: 15px;
+	color: #7986CB;
+}
+
+.icon-line {
+	height: 60px;
+	margin-top: 15px;
+}
+
+.i-logo {
+	width: 60px;
+	height: 60px;
+	margin-left: 20px;
+	margin-right: 5px;
+	float: left;
+}
+
+.i-detail {
+	padding-top: 6px;
+	font-size: 14px;
+	font-weight: bolder;
+	width: 430px;
+}
+
+.id-title {
+	font-weight: 900;
+	font-size: 14.5px;
+	margin-bottom: 2px;
+}
+
+.i-logo2 {
+	width: 53px;
+	height: 53px;
+	margin-left: 20px;
+	margin-right: 10px;
+	padding-top: 3px;
+	float: left;
+}
+
+/* My Works */
+
+.port-folio {
+	width: 49.5%; 
+	height: 100%;
+	float: left;
+	border-right: 2px solid white;
+}
+
+/* 타이틀 */ 
+.pf-title {
+	font-size: 28px;
+	font-weight: 800;
+	margin-left: 25px;
+	padding-top: 15px;
+	color: #7986CB;
+	float: left;
+}
+.pf-add {
+	margin-left: 228px;
+	padding-top: 25px;
+	padding-left: 10px;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #7986CB;
+	font-style: italic;
+}
+
+/* 이미지 */
+.screenshot {
+	padding-left: 30px;
+	padding-top: 8px;
+}
+
+/* 부가 설명 */
+.intro-title {
+	padding-left: 30px;
+	padding-top: 13px;
+	font-size: 15px;
+	font-weight: 800;
+	font-style: inherit;
+}
+
+.intro-detail {
+	padding-left: 30px;
+	padding-top: 5px;
+	font-weight: bolder;
+	font-size: 13px;
+}
+
+.port-logo {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+}
+
+.port-logo2 {
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-right: 9px;
+	padding-top: 2px;
+}
+
+/* 이동 버튼 */
+.link-zone {
+	text-align: right;
+	margin-top: 85px;
+	margin-right: 25px;
+}
+
+.port-button {
+	border: none;
+	height: 32px;
+	margin-right: 5px;
+	padding-top: 5px; 
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	background: #7986CB;	
+	color: white;
+	font-weight: 800;
+}
+
+.port-button a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/*      */
+
+.board {
+	clear: both;
+	width: 100%;
+	text-align: left;
+}
+
+.board-body {
+	clear: both;
+	margin: 0px auto 15px;
+}
+
+
+
+/* footer */
+
+.footer {
+	clear: both;
+	width: 100%;
+    height: 70px;
+    clear: both;
+    background: #7986CB;
+    color: white;
+    font-weight: bolder;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 40px;
+    }
+
+
